@@ -1,0 +1,35 @@
+<div class="container">
+<h1>Team Details</h1>
+<div class="row">
+  <div class="col-md-3">
+ <input class="form-control mr-sm-2" type="text"  [(ngModel)]="searchTeam" placeholder="Search">
+</div>
+</div>
+<div class="row">
+<div class="col-md-4" >Filtered by:{{searchTeam}}</div>
+</div>
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Employee Id</th>
+        <th scope="col">Employee Name</th>
+        <th scope="col">Employee Team</th>
+        <th scope="col">Team Manager</th>
+        <th scope="col">Update</th>
+        <th scope="col">Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let t of result.data|search:searchTeam">
+        <td>{{t.id}}</td> 
+        <td>{{t.empName}}</td>
+        <td>{{t.empTeam}}</td>
+        <td>{{t.teamManager}}</td>
+        <td ><button type="button" class="btn btn-secondary" [routerLink]="['/edit-team/',t.id]" >Update</button></td>
+
+        <td ><button type="button" class="btn btn-secondary" (click)="deleteteam(t.id)">Delete</button></td>
+
+    </tbody>
+  </table>
+  <button class="btn btn-primary" type="button" [routerLink]="['/add-teams']">Add Team</button>
+</div>

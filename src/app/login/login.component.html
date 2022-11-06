@@ -1,0 +1,40 @@
+<div class="container">
+    <div class ="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Login</h1>
+                    <h6>Please enter email and password !!</h6>
+                </div>
+                <form >
+                    <form #loginForm="ngForm" (ngSubmit)="logUser(loginForm)">
+                        <div class="mb-3">
+                          <label for="email">Email Address</label>
+                          <input  type="text" 
+                          class="form-control" 
+                          ngModel
+                          id="email"
+                          name="email"
+                          #email="ngModel"
+                          placeholder="Enter the email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input  type="password" 
+                          class="form-control"
+                          ngModel 
+                          id="password"
+                          name="password"
+                          #email="ngModel"
+                          placeholder="Enter the password"
+                          >
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-6">Login</button>
+                      </form>
+                      <a style="color: #fff;" routerLink="/register" >New user? Click to SignUp !</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<div class="container">
+<h1>Add Teams</h1>
+<form #teamadd="ngForm" (ngSubmit)="addTeam(teamadd)">
+  <div class="mb-3">
+  <input type="text" 
+  class="form-control" 
+  ngModel
+  id="empName"
+  name="empName"
+  #empName="ngModel"
+  placeholder="Enter The Employee Name">
+  </div>
+  <div class="mb-3">
+    <input type="text" 
+    class="form-control" 
+    ngModel
+    id="empTeam"
+    name="empTeam"
+    #empTeam="ngModel"
+    placeholder="Enter The Employee Team">
+    </div>
+    <div class="mb-3">
+      <input type="text" 
+      class="form-control" 
+      ngModel
+      id="teamManager"
+      name="teamManager"
+      #teamManager="ngModel"
+      placeholder="Enter The Team Manager">
+      </div>
+  <button type="submit" class="btn btn-primary">ADD</button>
+</form>
+</div>

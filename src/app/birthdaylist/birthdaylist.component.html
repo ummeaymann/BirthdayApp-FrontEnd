@@ -1,0 +1,29 @@
+<!-- <div class="hero">
+    <h1 class="title">BIRTHDAY DETAILS</h1>
+</div> -->
+<div class="container">
+    <h1 class="title">BIRTHDAYS</h1>
+    <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Employee Id</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Team</th>
+            <th scope="col">Email</th>
+            <th scope="col">DOB</th>            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let p of result.data|list">
+            <td>{{p.id}}</td>
+            <td>{{p.firstName}}</td> 
+            <td>{{p.lastName}}</td>
+            <td>{{p.email}}</td>
+            <td>{{p.dob}}</td>
+
+        
+
+        </tbody>
+      </table>
+</div>
+    
