@@ -1,0 +1,37 @@
+<div class="container">
+    <h1>Edit Team</h1>
+    <form #editTeamData="ngForm" (ngSubmit)="editTeam(editTeamData)">
+      <div class="mb-3">
+      <input type="text" 
+      class="form-control" 
+      ngModel
+      id="empName"
+      name="empName"
+      #empName="ngModel"
+      [(ngModel)]="selectedTeam.empName"
+      placeholder="Enter The Employee Name">
+      </div>
+      <div class="mb-3">
+        <input type="text" 
+        class="form-control" 
+        ngModel
+        id="empTeam"
+        name="empTeam"
+        #empTeam="ngModel"
+        [(ngModel)]="selectedTeam.empTeam"
+        placeholder="Enter The Employee Team">
+        </div>
+        <div class="mb-3">
+            <input type="text" 
+            class="form-control" 
+            ngModel
+            id="teamManager"
+            name="teamManager"
+            #teamManager="ngModel"
+            [(ngModel)]="selectedTeam.teamManager"
+            placeholder="Enter The Team Manager">
+        </div>
+      
+      <button type="submit" class="btn btn-primary" >UPDATE</button>
+    </form>
+</div>

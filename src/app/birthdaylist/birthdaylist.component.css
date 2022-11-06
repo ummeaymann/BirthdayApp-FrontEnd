@@ -1,0 +1,94 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    /* color: transparent; */
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -750px 0;
+    font-family: 'Times New Roman', Times, serif;
+    animation: backcolor 5s linear infinite alternate;
+}
+.container{
+    width: 1200px;
+    padding: 60px;
+    /* background: hsla(205, 46%, 30%, 1);
+    background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%); */
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 5px;
+
+}
+.table{
+    color: white;
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 180px;
+    width: 800px;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    margin-left:250px;
+    border: 3px solid #3498db;
+
+}
+/* h1{
+    margin-top: 0px;
+    color: #3498db;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 43px;
+} */
+button{
+    border: 2px solid #3498db;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width:100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    transform:scale(1.1);
+    background-color: #3498db;
+    color:black;
+    }
+.col-md-4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 1px;
+    font-weight: bold;
+
+
+}
+.mr-sm-2{
+    background-color: bisque;
+    color: black;
+    width: 200px;
+    margin-left: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+    
+
+

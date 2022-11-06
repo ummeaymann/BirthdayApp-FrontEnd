@@ -1,0 +1,29 @@
+.card{
+    border: 3px solid #3498db;
+    width: 480px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%,);
+    background: hsla(205, 46%, 30%, 1);
+    background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.card h1,
+h6 {
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+button{
+    margin-bottom: 15px;
+}

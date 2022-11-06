@@ -1,0 +1,143 @@
+body {
+    background: rgb(99, 39, 120);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: black;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    font-weight: bold;
+    border: 3px solid black;
+
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none;
+    border: 3px solid #3498db;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width:100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 35px;
+    width: 150px;
+}
+
+.profile-button:hover {
+    background: #3498db;
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.label {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    margin-left: 2px;
+ 
+}
+
+.labels {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    margin-left: 2px;
+}
+
+h4{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 3px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+input[type="text"]:focus,
+input[type="email"]{
+    border: 2px solid black;
+    color:black;
+    font-weight: bold;
+}
+.col-md-5{
+    /* background: hsla(205, 46%, 30%, 1); */
+    /* background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%); */
+}
+span{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.mt-6{
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none;
+    border: 3px solid #3498db;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width:100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 35px;
+    width: 100px;
+
+}
+.mt-6:hover {
+    background: #3498db;
+}
+
+.mt-6:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.mt-6:active {
+    background: #682773;
+    box-shadow: none
+}
+/* .profile{
+    margin-left: 900px;
+    margin-top:100px;
+} */
+
+
+
+
+
+

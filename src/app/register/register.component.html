@@ -1,0 +1,64 @@
+<div class="container">
+    <div class ="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Sign Up</h1>
+                    <h6>Register Yourself !!</h6>
+                </div>
+                <form>
+                    <!-- <form [formGroup]="signupForm" (ngSubmit)="signUp()"> -->
+                    <form #regForm="ngForm" (ngSubmit)="regUser(regForm)">
+                        <div class="mb-3">
+                            <label for="userName">Username</label>
+                            <input type="text"
+                             class="form-control" 
+                             ngModel
+                             id="userName"
+                             name="userName"
+                             #name="ngModel"
+                             placeholder="Enter the username"
+                             >
+                          </div>
+                          <div class="mb-3">
+                            <label for="email">Email Address</label>
+                            <input type="email" 
+                            class="form-control"
+                            ngModel
+                            id="email"
+                            name="email"
+                            #email="ngModel"
+                            placeholder="Enter the email"
+                            >
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          </div>
+                          <div class="mb-3">
+                          <label for="password">Password</label>
+                          <input type="password" 
+                          class="form-control" 
+                          ngModel
+                          id="password"
+                          name="password"
+                          #role="ngModel"
+                          placeholder="Enter the password"
+                          >
+                          </div>
+                          <div class="mb-3">
+                            <label for="role">Role</label>
+                            <input type="text" 
+                            class="form-control" 
+                            ngModel
+                            id="role"
+                            name="role"
+                            #role="ngModel"
+                            placeholder="Enter the role"
+                            >
+                          </div>
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                      </form>
+                      <a style="color: #fff; margin-top: 10px" routerLink="/login" >Already Registered? Click to Login!</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

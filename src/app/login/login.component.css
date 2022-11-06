@@ -1,0 +1,30 @@
+.card{
+    border: 3px solid #3498db;
+    width: 480px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    margin-top: 90px;
+    transform: translate(-50%,);
+    background: hsla(205, 46%, 30%, 1);
+    background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+    
+}
+
+.card h1,
+h6 {
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+button{
+    margin-bottom: 20px;
+}
